@@ -21,7 +21,7 @@ after_success:
   #Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u $DOCKER_ID --password-stdin
   #Take those images and push them to docker hub 
-  - docker push apach/multi-client
-  - docker push apach/multi-nginx
-  - docker push apach/multi-server
-  - docker push apach/multi-worker
+  - docker push apach2019/multi-client
+  - docker push apach2019/multi-nginx
+  - docker push apach2019/multi-server
+  - docker push apach2019/multi-worker
